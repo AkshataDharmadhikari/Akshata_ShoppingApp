@@ -8,7 +8,8 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB connection URI
-const uri = "mongodb://localhost:27017";
+// MongoDB connection URI
+const uri = "mongodb+srv://akshmdb:champ%40123@akshmongodb.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000";
 const client = new MongoClient(uri);
 
 // Database and collection
